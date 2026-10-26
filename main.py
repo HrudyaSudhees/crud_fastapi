@@ -7,9 +7,9 @@ from database import get_connection
 app = FastAPI(title="Basic person CRUD API")
 
 class Person(BaseModel):
-    name: str
+    name: str = Field(min_length=1, max_length=100)
     gender: str
-    age: int
+    age: int = Field(ge=0, le=150)
     dob: date
     address: str
     blood_group: str
