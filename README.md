@@ -166,4 +166,3 @@ Use the date format `YYYY-MM-DD` for the date of birth.
 ## License
 
 No license has been specified yet.
-# crud_fastapi
