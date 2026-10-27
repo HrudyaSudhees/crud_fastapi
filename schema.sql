@@ -1,4 +1,4 @@
-CREATE TABLE persons (
+CREATE TABLE IF NOT EXISTS persons (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     gender VARCHAR(30) NOT NULL,
