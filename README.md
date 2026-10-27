@@ -217,3 +217,4 @@ The test script creates and deletes a real database record. Run it against a dev
 - The API uses Psycopg directly; SQLAlchemy is not required.
 - Keep passwords, `.env`, virtual environments, and generated files out of version control.
 - The database initialization script creates the schema but does not replace proper database access controls or schema migrations.
+- No license has been specified yet.
